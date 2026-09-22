@@ -404,12 +404,14 @@ nav a {
 }
 
 .contact-action > div:nth-child(2) {
-  min-width:0;
+  min-width: 0;
+  flex: 1;
 }
 
 .contact-action-detail {
-  overflow-wrap:anywhere;
-  word-break:break-word;
+  overflow-wrap: normal;
+  word-break: normal;
+  white-space: normal;
 }
 #contact h2 {
   font-size: 32px;
@@ -431,6 +433,39 @@ nav a {
 .loader-mark {
   width:64px;
   height:64px;
+}
+
+.contact-action {
+  min-width: 0;
+}
+
+.contact-action-detail {
+  font-size: 12px;
+}
+.experience-card {
+  width: 100%;
+  max-width: 100%;
+  padding: 28px 22px 28px 38px;
+}
+
+.experience-header {
+  gap: 15px;
+}
+
+.experience-header > div {
+  min-width: 0;
+}
+
+.experience-header span {
+  flex-shrink: 0;
+}
+
+.experience-highlight {
+  min-width: 0;
+}
+
+.experience-highlight > div {
+  min-width: 0;
 }
 
 }
