@@ -403,10 +403,14 @@ nav a {
   grid-template-columns: 1fr;
 }
 
-.contact-actions {
-  grid-template-columns: 1fr;
+.contact-action > div:nth-child(2) {
+  min-width:0;
 }
 
+.contact-action-detail {
+  overflow-wrap:anywhere;
+  word-break:break-word;
+}
 #contact h2 {
   font-size: 32px;
 }
