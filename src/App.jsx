@@ -14,26 +14,26 @@ function App() {
     return () => clearTimeout(timer);
   }, []);
   if (isLoading) {
-  return (
-    <div className="site-loader">
-      <div className="loader-content">
+    return (
+      <div className="site-loader">
+        <div className="loader-content">
 
-        <div className="loader-mark">
-          AA
+          <div className="loader-mark">
+            AA
+          </div>
+
+          <h1>AHAMED ASFAR</h1>
+
+          <p>SOFTWARE DEVELOPER</p>
+
+          <div className="loader-line">
+            <span></span>
+          </div>
+
         </div>
-
-        <h1>AHAMED ASFAR</h1>
-
-        <p>SOFTWARE DEVELOPER</p>
-
-        <div className="loader-line">
-          <span></span>
-        </div>
-
       </div>
-    </div>
-  );
-}
+    );
+  }
   return (
     <>
       <div
@@ -427,7 +427,9 @@ function App() {
               <div className="contact-actions">
 
                 <a
-                  href="mailto:ahamedasfar0@gmail.com"
+                  href="https://mail.google.com/mail/?view=cm&fs=1&to=ahamedasfar0@gmail.com"
+                  target="_blank"
+                  rel="noreferrer"
                   className="contact-action email-action"
                 >
                   <div className="contact-action-icon">✉</div>
